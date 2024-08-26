@@ -1,7 +1,7 @@
 package Labs.Lab01
 
 class Student(name: String, age: Int) : Human(name, age) {
-    private var courses = mutableListOf<CourseRecord>()
+    var courses = mutableListOf<CourseRecord>()
 
     fun addCourse(courseRecord: CourseRecord){
         courses.add(courseRecord)
